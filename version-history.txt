@@ -1,0 +1,13 @@
+0.1.0 - Current Version
+
+Features
+
+-Generate password  with parameters: uppercase letters on/off, special characters on/off, numbers on/off
+-Specify length of password
+
+Weaknesses
+
+-Bad UI
+-Inefficient code
+-'app.py' line 19: int(lengthTemp) causes the entire program to close unless lengthTemp is a numbers
+-A length that is not an integer may potentially break the program (not tested)
